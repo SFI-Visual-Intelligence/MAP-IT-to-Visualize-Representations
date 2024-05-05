@@ -6,6 +6,9 @@ MAP IT is inspired by t-SNE (please see https://lvdmaaten.github.io/tsne/) and a
 Ydata = mapit_p(Pmnist2000, labels_mnist2000, 2, 7)
 
 MAP IT to Visualize Representations
+
 Robert Jenssen
+
 ICLR 2024
+
 https://openreview.net/pdf?id=OKf6JtXtoy 
