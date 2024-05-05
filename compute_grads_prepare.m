@@ -6,8 +6,8 @@ function [Pm_owns_xi,PnotNN] = compute_grads_prepare(matrixNN,P);
 %
 % [Pm_owns_xi,PnotNN] = compute_grads_prepare(matrixNN,P);
 %
-% Input: A transition probability matrix, either "P" or "Q". A binary
-% matrix that indicates nearest neighbors of each point. 
+% Input: A transition probability matrix "P" (or "Q"). A binary
+% matrix "matrixNN" that indicates nearest neighbors of each point. 
 %
 % Output: "Pm_owns" refer to marginal probability for point i computed 
 % in its neighborhood. "PnotNN" collects pairwise transition probabilities
