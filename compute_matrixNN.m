@@ -1,4 +1,4 @@
-function [matrixNN] = compute_matrixNN(indexP,k);
+function [matrixNN] = compute_matrixNN(indexP,k,n);
 % The function "compute_matrixNN" creates a binary matrix where the i'th
 % row corresponds to point number i. A "1" is put in the l'th element
 % of row i if point l is one of the k nearest neighbors of point i.
